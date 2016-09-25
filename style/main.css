@@ -1,5 +1,30 @@
-h1 { 
-	font-size:30px;
-	font-family: avenir next;
+
+body {
+	background: #f1f1f1;
 }
 
+ul {
+
+}
+
+li {
+	
+}
+
+li > a {
+	margin: 10px;
+	display: block;
+	text-decoration: none;
+	background: #fff;
+}
+
+li > a::after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+li > a > img,
+li > a > p {
+	float: left;
+}
